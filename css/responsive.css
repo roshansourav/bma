@@ -7,11 +7,14 @@
 
     .hero_area {
         height: auto;
-    }
-
-    .slider_section {
-        background-attachment: fixed;
-    }
+        background-position: center center !important;
+      }
+    
+      .slider_section {
+        background-attachment: scroll !important; /* Changed from fixed to prevent mobile issues */
+        background-position: center center !important;
+        height: auto;
+      }
 
     .custom_nav-container {
         justify-content: center;
@@ -32,6 +35,10 @@
 
 @media (max-width: 768px) {
 
+    .slider_section {
+        background-position: center top !important;
+        background-size: cover !important;
+      }
 
     .slider_section .detail-box {
         text-align: center;
