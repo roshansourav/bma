@@ -525,7 +525,11 @@ a:focus {
 }
 
 .us_section .us_container .box .img-box {
-  height: 100px;
+  /* height: 100px; */
+  height: 100%  !important;
+  width: auto  !important;
+  max-width: 300px  !important;
+  min-width: 200px  !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
