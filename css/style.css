@@ -918,5 +918,21 @@ a:focus {
   color: #ffffff;
 }
 
+/* Ensure all nav links have consistent alignment */
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+/* Add spacing between icon and text */
+.navbar-nav .nav-link img {
+  margin-right: 8px;
+}
+
+/* Prevent text wrapping in navbar */
+.navbar-nav .nav-link span {
+  white-space: nowrap;
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
