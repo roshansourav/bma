@@ -200,14 +200,30 @@
           <p>
             We offer expert training in Judo, Taekwondo, Boxing, Gymnastics, Karate and Self-Defence—empowering all ages with skill, discipline, fitness, and confidence. 
           </p>
-          <a href="">
-            Read More
-          </a>
+          <div id="whatsapp-lottie" style="width: 80px; height: 80px; cursor: pointer;" 
+             onclick="window.open('https://wa.me/+919948664952')"></div>
+      </div>
         </div>
       </div>
     </div>
   </section>
   <!-- end about section -->
+
+  
+<!-- Add Lottie Player Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+<script>
+  // Load the Lottie animation
+  document.addEventListener('DOMContentLoaded', function() {
+    const animation = bodymovin.loadAnimation({
+      container: document.getElementById('whatsapp-lottie'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'images/whatsapp.json' // Path to your JSON file
+    });
+  });
+</script>
 
   <!-- service section -->
 
