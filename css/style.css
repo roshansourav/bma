@@ -1226,5 +1226,27 @@ a:focus {
   transform: scaleX(0.9); /* Slightly shorter than full width */
   transform-origin: center;
 }
+
+.info_social {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* This creates space between icons */
+}
+
+.social-icon {
+  margin: 0 5px; /* Additional spacing if needed */
+}
+
+.social-icon i {
+  font-size: 24px;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.social-icon i:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
