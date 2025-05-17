@@ -1185,5 +1185,96 @@ a:focus {
   background-color: rgba(248, 188, 26, 0.5);
 }
 
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.contact-image-container {
+  padding: 15px;
+}
+
+.contact-image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.underlined-heading {
+  position: relative;
+  padding-bottom: 10px; /* Space between text and underline */
+}
+
+.underlined-heading::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: yellow;
+  transform: scaleX(0.9); /* Slightly shorter than full width */
+  transform-origin: center;
+}
+
+.info_social {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* This creates space between icons */
+}
+
+.social-icon {
+  margin: 0 5px; /* Additional spacing if needed */
+}
+
+.social-icon i {
+  font-size: 24px;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.social-icon i:hover {
+  color: #ffd700;
+  transform: scale(1.2);
+}
+
+/* Slideshow Styles */
+#contactCarousel {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#contactCarousel img {
+  height: 350px;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
